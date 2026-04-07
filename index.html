@@ -25,22 +25,117 @@
 
 <!-- Local Business Schema -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "RSN Kitchen Cabinets Ltd.",
-  "description": "Custom kitchen cabinets, cabinetry, and architectural millwork across BC — Greater Vancouver, Victoria, Kelowna, Penticton, and the Okanagan.",
-  "url": "https://www.rsncabinets.ca",
-  "telephone": "+1-604-803-0863",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Burnaby",
-    "addressRegion": "BC",
-    "addressCountry": "CA"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+    "name": "RSN Kitchen Cabinets Ltd.",
+    "description": "Custom kitchen cabinets, architectural millwork, and built-in cabinetry for residential and commercial projects across British Columbia. Based in Surrey, serving Greater Vancouver, Vancouver Island, and the Okanagan for 20+ years.",
+    "url": "https://www.rsncabinets.ca",
+    "telephone": "+1-604-803-0863",
+    "email": "rsncabinets@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "#5 - 7935 130th Street",
+      "addressLocality": "Surrey",
+      "addressRegion": "BC",
+      "postalCode": "V3W 0H7",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.1404,
+      "longitude": -122.8480
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Surrey"},
+      {"@type": "City", "name": "Burnaby"},
+      {"@type": "City", "name": "Vancouver"},
+      {"@type": "City", "name": "Coquitlam"},
+      {"@type": "City", "name": "Richmond"},
+      {"@type": "City", "name": "Langley"},
+      {"@type": "City", "name": "North Vancouver"},
+      {"@type": "City", "name": "Delta"},
+      {"@type": "City", "name": "Victoria"},
+      {"@type": "City", "name": "Kelowna"},
+      {"@type": "City", "name": "Penticton"},
+      {"@type": "City", "name": "Vernon"}
+    ],
+    "priceRange": "$$",
+    "foundingDate": "2004",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Custom Millwork Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Kitchen Cabinets"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Architectural Millwork"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Built-in Cabinetry"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Closets and Wardrobes"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Media Walls and Entertainment Units"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial Millwork"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bathroom Vanities"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cabinet Refacing and Refinishing"}}
+      ]
+    },
+    "sameAs": [
+      "https://www.google.com/maps/place/RSN+Kitchen+Cabinets"
+    ]
   },
-  "areaServed": ["Greater Vancouver","Burnaby","Surrey","Coquitlam","Richmond","Vancouver","North Vancouver","Langley","Delta","New Westminster","Victoria","Saanich","Kelowna","Penticton","West Kelowna","Vernon","Okanagan"],
-  "priceRange": "$$"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who does custom kitchen cabinets in Surrey BC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "RSN Kitchen Cabinets Ltd. is based in Surrey, BC at #5 - 7935 130th Street. They specialize in custom kitchen cabinets and architectural millwork for residential and commercial projects across Metro Vancouver. Call 604-803-0863."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you serve Kelowna and the Okanagan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. RSN Kitchen Cabinets Ltd. serves Kelowna, Penticton, Vernon, West Kelowna, and surrounding Okanagan communities. Contact rsncabinets@gmail.com or call 604-803-0863 for a consultation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you do commercial millwork in Vancouver?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. RSN Kitchen Cabinets Ltd. handles commercial millwork including dental offices, medical facilities, retail spaces, and offices across Metro Vancouver and British Columbia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do custom kitchen cabinets cost in Vancouver?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Custom kitchen cabinet pricing varies based on kitchen size, materials, and finish. RSN Kitchen Cabinets Ltd. offers free consultations and same-day responses. Call 604-803-0863 or email rsncabinets@gmail.com for a quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you serve Victoria and Vancouver Island?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. RSN Kitchen Cabinets Ltd. serves Victoria, Saanich, Langford, and greater Vancouver Island. They travel for the right project. Contact them for a consultation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long has RSN Kitchen Cabinets been in business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "RSN Kitchen Cabinets Ltd. has over 20 years of experience in custom cabinetry and architectural millwork across British Columbia."
+        }
+      }
+    ]
+  }
+]
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -662,6 +757,48 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
 .footer-bottom { display: flex; justify-content: space-between; font-size: 13px; color: rgba(255,255,255,.16); flex-wrap: wrap; gap: 10px; }
 
 /* =====================
+   FAQ
+   ===================== */
+.faq { background: var(--warm); }
+.faq-grid { margin-top: 48px; display: flex; flex-direction: column; gap: 2px; }
+.faq-item {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: border-color .25s;
+}
+.faq-item[open] { border-color: var(--glow); }
+.faq-item summary {
+  padding: 22px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '+';
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--glow);
+  flex-shrink: 0;
+  transition: transform .3s;
+}
+.faq-item[open] summary::after { transform: rotate(45deg); }
+.faq-item p {
+  padding: 0 28px 22px;
+  font-size: 14px;
+  color: var(--mid);
+  line-height: 1.9;
+}
+
+/* =====================
    COPY BUTTON
    ===================== */
 .copy-btn {
@@ -754,6 +891,7 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
   <a href="#services" onclick="closeD()">Services</a>
   <a href="#gallery" onclick="closeD()">Work</a>
   <a href="#testimonials" onclick="closeD()">Testimonials</a>
+  <a href="#faq" onclick="closeD()">FAQ</a>
   <a href="#contact" onclick="closeD()">Contact</a>
 </div>
 
@@ -894,6 +1032,41 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
   </div>
 </section>
 
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="r">
+    <span class="st">FAQ</span>
+    <h2 class="sh">Common questions.</h2>
+  </div>
+  <div class="faq-grid r d1">
+    <details class="faq-item">
+      <summary>Do you serve Kelowna, Penticton, and the Okanagan?</summary>
+      <p>Yes. We travel for the right project and have completed work throughout Kelowna, Penticton, Vernon, West Kelowna, and surrounding communities. Contact us for a consultation.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Do you work on Vancouver Island and Victoria?</summary>
+      <p>Yes. We serve Victoria, Saanich, Langford, and greater Vancouver Island. Same standard of work regardless of location.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Do you handle commercial projects?</summary>
+      <p>Yes. We do commercial millwork for dental offices, medical facilities, retail spaces, and offices across BC. Same quality as our residential work.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How do I get a quote?</summary>
+      <p>Call or email us — we respond the same day. We offer free consultations and can work with your designer, contractor, or directly with you.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What areas in Metro Vancouver do you cover?</summary>
+      <p>All of Metro Vancouver including Surrey, Burnaby, Vancouver, Coquitlam, Richmond, Langley, North Vancouver, Delta, New Westminster, and the Lower Mainland.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How long have you been in business?</summary>
+      <p>Over 20 years. RSN Kitchen Cabinets Ltd. has been building custom cabinetry and millwork across British Columbia since the early 2000s.</p>
+    </details>
+  </div>
+</section>
+
 <!-- ===== CONTACT ===== -->
 <section class="contact" id="contact">
   <div class="r">
@@ -942,6 +1115,7 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
       <a href="#services">Services</a>
       <a href="#gallery">Work</a>
       <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="footer-contact">
