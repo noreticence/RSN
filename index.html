@@ -10,6 +10,8 @@
 <meta name="robots" content="index, follow">
 <meta name="author" content="RSN Kitchen Cabinets Ltd.">
 <link rel="canonical" href="https://www.rsncabinets.ca/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
@@ -759,8 +761,8 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
 /* =====================
    FAQ
    ===================== */
-.faq { background: var(--warm); }
-.faq-grid { margin-top: 48px; display: flex; flex-direction: column; gap: 2px; }
+.faq { background: var(--warm); padding-top: 70px; padding-bottom: 70px; }
+.faq-grid { margin-top: 32px; display: flex; flex-direction: column; gap: 2px; max-width: 760px; }
 .faq-item {
   background: #fff;
   border: 1px solid var(--border);
@@ -770,8 +772,8 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
 }
 .faq-item[open] { border-color: var(--glow); }
 .faq-item summary {
-  padding: 22px 28px;
-  font-size: 15px;
+  padding: 15px 22px;
+  font-size: 13px;
   font-weight: 600;
   color: #111;
   cursor: pointer;
@@ -784,7 +786,7 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
 .faq-item summary::-webkit-details-marker { display: none; }
 .faq-item summary::after {
   content: '+';
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: var(--glow);
   flex-shrink: 0;
@@ -792,10 +794,10 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
 }
 .faq-item[open] summary::after { transform: rotate(45deg); }
 .faq-item p {
-  padding: 0 28px 22px;
-  font-size: 14px;
+  padding: 0 22px 15px;
+  font-size: 13px;
   color: var(--mid);
-  line-height: 1.9;
+  line-height: 1.85;
 }
 
 /* =====================
@@ -1129,7 +1131,7 @@ footer { background: #111; padding: 60px 5vw 38px; border-top: 1px solid rgba(25
   </div>
   <div class="footer-div"></div>
   <div class="footer-bottom">
-    <span>&copy; 2025 RSN Kitchen Cabinets Ltd. All rights reserved.</span>
+    <span>&copy; 2026 RSN Kitchen Cabinets Ltd. All rights reserved.</span>
     <span>Based in Greater Vancouver. Serving clients across British Columbia.</span>
   </div>
 </footer>
